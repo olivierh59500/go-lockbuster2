@@ -56,3 +56,7 @@ go run ./cmd/extract -input /path/to/intro.prg -assets /path/to/export
 
 Captures use native resolution. Asset extraction exports artwork and authored
 copy maps, rather than embedding the original executable.
+
+Android validation: the ARM64 build was installed and checked on a Pixel 10a.
+The application maintains approximately 50 simulation updates and 60 displayed
+frames per second. APK signing and 16 KB ZIP/ELF alignment checks pass.
