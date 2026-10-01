@@ -60,3 +60,15 @@ copy maps, rather than embedding the original executable.
 Android validation: the ARM64 build was installed and checked on a Pixel 10a.
 The application maintains approximately 50 simulation updates and 60 displayed
 frames per second. APK signing and 16 KB ZIP/ELF alignment checks pass.
+
+## Video export
+
+```sh
+go run ./cmd/video
+```
+
+This creates a three-minute 50 fps H.264/AAC MP4, a PNG poster and a JSON report
+under `recordings/`. DCK exports only the game canvas and its own audio, using
+one simulation clock. Graphics are scaled by an integer factor of two. The
+recordings are local generated media. Duration and poster time can be changed
+with `-duration` and `-poster-at`.
