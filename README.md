@@ -13,6 +13,25 @@ clock preserves the two screen buffers and the 68000 copy order. Seven display
 checkpoints, including all six scroll engines, match the original screen memory
 byte for byte. A full sequence and restart are covered by regression tests.
 
+<!-- Project showcase -->
+## Screenshots
+
+[![Metallic scrolltext and its reflection across horizontal rainbow rasters](docs/media/screenshot-1.png)](docs/media/screenshot-1.png)
+
+Metallic scrolltext and its reflection across horizontal rainbow rasters.
+
+## Video
+
+[![Animated preview of Lockbuster 2 Go](docs/media/preview.gif)](https://github.com/olivierh59500/go-lockbuster2/raw/refs/heads/main/docs/media/preview.mp4)
+
+**[Watch or download the 24-second MP4 preview with sound](https://github.com/olivierh59500/go-lockbuster2/raw/refs/heads/main/docs/media/preview.mp4)**
+
+This preview is captured from the Go production.
+
+The animated image is silent; the MP4 includes the soundtrack.
+
+<!-- End project showcase -->
+
 ## Run
 
 ```sh
